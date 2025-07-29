@@ -1,6 +1,7 @@
 *.py~
 *.pyc
 *.so
+*.png
 dist/
 build/
 particles.egg-info/
