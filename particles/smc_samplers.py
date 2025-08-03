@@ -425,6 +425,9 @@ class ThetaParticles:
     def __init__(self, shared=None, **fields):
         self.shared = {} if shared is None else shared
         self.__dict__.update(fields)
+        
+    def __len__(self):
+        return self.N
 
     @property
     def N(self):
